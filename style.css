@@ -1,0 +1,126 @@
+body{
+margin: 0;
+padding: 0;
+background-image: url(image/back.jpg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #1f2937;
+    color: white;
+    padding: 0;
+}
+.logo {
+    height: 40px;
+    width: 100px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+
+.one {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.su{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    max-width: 500px;
+}
+.suu {
+    font-size: 18px;
+}
+.interior {
+    width: 500px;
+    height: auto;
+}
+
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.two.sub {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.poor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rich {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.three {
+    display: flex;
+    justify-content: center;
+    background-color: hwb(220 90% 8%);
+    font-size: 36px;
+    font-style: "light italic";
+    color: #1f2937;
+}
+
+
+.four  {
+   
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.uu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 10px;
+}
+.uuu {
+    max-width: 700px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 40px;
+    align-items: center;
+}
+
+button {
+    color: #3882F6;
+    border-radius: 3px;
+    height: 25px;
+}
